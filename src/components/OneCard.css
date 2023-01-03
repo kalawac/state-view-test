@@ -1,0 +1,30 @@
+.OneCard {
+    background-color: lavender;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.OneCard nav {
+  background-color: #f2f2f2;
+  min-width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.OneCard button {
+  border: none;
+  background-color: inherit;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.OneCard button:hover {
+  font-weight: bolder;
+  color: green;
+  text-decoration: none;
+}
